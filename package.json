@@ -10,8 +10,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "homepage" : "http://niyogakiza.github.io/www.aimadev.eu",
-    "surge":"surge ./build/ --domain www.aimadev.eu"
+    "homepage": "http://niyogakiza.github.io/www.aimadev.eu",
+    "surge": "surge dist/ --domain www.aimadev.eu"
   },
   "dependencies": {
     "nuxt": "^1.4.1",
@@ -27,6 +27,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.4.1",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "surge": "^0.20.1"
   }
 }

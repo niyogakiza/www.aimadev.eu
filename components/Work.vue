@@ -8,7 +8,7 @@
     <v-card-actions :class="color" class="darken-1 mt-0">
       <v-btn tag="a" flat  class="white--text" v-if="website" :href="website.url" target="_blank">{{ website.title }}</v-btn>
       <v-spacer></v-spacer>
-      <v-btn tag="a" icon  v-tooltip :top="{ html: 'Source code at Github'}" v-if="githubUrl" :href="githubUrl" target="_blank">
+      <v-btn tag="a" icon  v-tooltip:top="{ html: 'Source code at Github'}" v-if="githubUrl" :href="githubUrl" target="_blank">
         <v-icon class="white--text">code</v-icon>
       </v-btn>
     </v-card-actions>

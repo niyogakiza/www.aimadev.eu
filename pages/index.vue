@@ -18,8 +18,8 @@
       </v-layout>
 
       <v-layout>
-        <v-flex xs12="xs12" class="text-xs-center mt-3">
-          <v-btn tag="a" href="/CV.pdf" target="_blank" class="deep-orange white--text">
+        <v-flex xs12 class="text-xs-center mt-3">
+          <v-btn tag="a" href="/cv.pdf"  target="_blank" class="deep-orange white--text">
             <v-icon left>picture_as_pdf</v-icon>
             CV
           </v-btn>
@@ -50,7 +50,9 @@
 </template>
 
 <script>
+
 export default {
+
   head () {
     return {
       title: 'Hey!'
