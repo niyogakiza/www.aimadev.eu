@@ -1,0 +1,54 @@
+{
+  "works":[
+    {
+      "title": "Restaurant Around Me!",
+      "description": "Find Restaurant By User Location! Build In React-Redux",
+      "color":"blue",
+      "imageUrl": "./img/portfolio/resto.png",
+      "githubUrl":"https://github.com/niyogakiza/Project7-openclassroom",
+      "website":{
+        "title":"Site Web",
+        "url":"https://restaurantaima.surge.sh/"
+      }
+    },
+    {
+      "title": "Pizzeria Order Database",
+      "description": "Pizzeria ordering system database in MySQL",
+      "color": "red",
+      "imageUrl": "./img/portfolio/database.jpg",
+      "githubUrl": "https://github.com/niyogakiza/Openclassroom-Project-4"
+    },
+    {
+      "title": "Quote Generator",
+      "description": "Random Quote Generator using Javascript Prototypes",
+      "color": "grey",
+      "imageUrl": "./img/portfolio/quote.png",
+      "githubUrl": "https://github.com/niyogakiza/Openclassroom-Project5"
+    },
+    {
+      "title": "Board Game",
+      "description": "Board Game Two Players Fight, Pure Javascript and used async await",
+      "color": "teal",
+      "imageUrl": "./img/portfolio/BoardGame.png",
+      "githubUrl": "https://github.com/niyogakiza/Openclassroom-Project6"
+    },
+    {
+      "title": "Fake Website",
+      "description": "Build In React, Bootstrap & font-awesome",
+      "color":"green",
+      "imageUrl": "./img/portfolio/React-1.png",
+      "githubUrl":"https://github.com/niyogakiza/couplesParty",
+      "website":{
+        "title":"Site Web",
+        "url":"http://coupleparty.surge.sh/"
+      }
+    },
+    {
+      "title": "Debug & Testing",
+      "description": "Debug and Testing Using Jasmine",
+      "color": "purple",
+      "imageUrl": "./img/portfolio/jasmine_vertical.png",
+      "githubUrl": "https://github.com/niyogakiza/Openclassroom_Project-8"
+    }
+  ]
+}

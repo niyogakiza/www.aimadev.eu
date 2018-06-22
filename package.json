@@ -1,0 +1,32 @@
+{
+  "name": "www.aimadev.eu-app",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "nuxt.config.js",
+  "author": "Aimable Niyogakiza",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "homepage" : "http://niyogakiza.github.io/www.aimadev.eu",
+    "surge":"surge ./build/ --domain www.aimadev.eu"
+  },
+  "dependencies": {
+    "nuxt": "^1.4.1",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vuetify": "^1.0.19"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
