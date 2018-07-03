@@ -7,7 +7,7 @@
       "imageUrl": "./img/portfolio/resto.png",
       "githubUrl":"https://github.com/niyogakiza/Project7-openclassroom",
       "website":{
-        "title":"Site Web",
+        "title":"Demo",
         "url":"https://restaurantaima.surge.sh/"
       }
     },
@@ -21,14 +21,14 @@
     {
       "title": "Quote Generator",
       "description": "Random Quote Generator using Javascript Prototypes",
-      "color": "grey",
+      "color": "orange",
       "imageUrl": "./img/portfolio/quote.png",
       "githubUrl": "https://github.com/niyogakiza/Openclassroom-Project5"
     },
     {
       "title": "Board Game",
       "description": "Board Game Two Players Fight, Pure Javascript and used async await",
-      "color": "teal",
+      "color": "purple",
       "imageUrl": "./img/portfolio/BoardGame.png",
       "githubUrl": "https://github.com/niyogakiza/Openclassroom-Project6"
     },
@@ -39,16 +39,49 @@
       "imageUrl": "./img/portfolio/React-1.png",
       "githubUrl":"https://github.com/niyogakiza/couplesParty",
       "website":{
-        "title":"Site Web",
+        "title":"Demo",
         "url":"http://coupleparty.surge.sh/"
       }
     },
     {
       "title": "Debug & Testing",
       "description": "Debug and Testing Using Jasmine",
-      "color": "purple",
+      "color": "blue",
       "imageUrl": "./img/portfolio/jasmine_vertical.png",
       "githubUrl": "https://github.com/niyogakiza/Openclassroom_Project-8"
+    },
+    {
+      "title": "Card Slider",
+      "description": "Build Card Slider using react",
+      "color": "blue",
+      "imageUrl": "./img/portfolio/cardSlider.png",
+      "githubUrl": "https://github.com/niyogakiza/Slick-Card-Slider",
+      "website":{
+        "title":"Demo",
+        "url":"http://cardsliderslik.surge.sh"
+      }
+    },
+    {
+      "title": "Seamless",
+      "description": "Build in Vue.js",
+      "color": "green",
+      "imageUrl": "./img/portfolio/seamless.png",
+      "githubUrl": "https://github.com/niyogakiza/seamless",
+      "website":{
+        "title":"Demo",
+        "url":"http://seamless.surge.sh"
+      }
+    },
+    {
+      "title": "Personal website",
+      "description": "Build in Nuxt",
+      "color": "blue",
+      "imageUrl": "./img/portfolio/myweb.png",
+      "githubUrl": "https://github.com/niyogakiza/www.aimadev.eu",
+      "website":{
+        "title":"Site Web",
+        "url":"http://www.aimadev.eu"
+      }
     }
   ]
 }

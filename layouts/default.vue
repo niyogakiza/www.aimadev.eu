@@ -1,16 +1,19 @@
 <template>
     <v-app toolbar footer>
-        <v-toolbar class="blue-grey elevation-0" >
+        <v-toolbar class="white lighten-2 elevation-0" >
             <nuxt-link to="/">
                 <img src="../assets/image/baseline_home_black_48dp.png" alt="Logo" class="logo"/>
             </nuxt-link>
             <v-card-text class="text-xs-center black--text"  >
                <p class="size">Love to Build <strong> Web App - Mobile App - Websites</strong></p>
             </v-card-text>
+          <v-alert :value="true" type="info">
+            Still in development .
+          </v-alert>
         </v-toolbar>
         <main class="mt-0">
             <v-toolbar-title class="text-xs-center white--text ma-5">
-                {{ pageTitle }}
+               {{ pageTitle }}
             </v-toolbar-title>
             <nuxt/>
         </main>
@@ -18,15 +21,15 @@
         <v-card
         flat
         tile
-        class="black white--text text-xs-center"
+        class="white lighten-2 white--text text-xs-center"
         >
-        <v-card-text class="white--text pt-0">
+        <v-card-text class="black--text shades--text pt-0">
            <p>Web development enthusiast. Autonomous, self-taught man.
            What I enjoy the most is dealing with new challenges and overcoming them,
            High adaptability. Great sociability. I gladly exchange ideas on my passions.
            Comfortable with several computer languages and frameworks.</p>
         </v-card-text>
-        <v-card-text class="white--text">
+        <v-card-text class="black--text">
         Copyright © {{ copyrightDate }} — <strong>Aimable Niyogakiza</strong>
         </v-card-text>
         </v-card>
@@ -68,5 +71,8 @@
     }
     .footer p{
         width: 100%;
+      font-weight: normal;
+      font-family: Helvetica,cursive;
+      font-size: 20px;
     }
 </style>

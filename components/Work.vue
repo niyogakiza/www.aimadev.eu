@@ -1,7 +1,7 @@
 <template>
   <v-card class="card elevation-3">
-    <v-card-media :src="imageUrl" height="150px"></v-card-media>
-    <v-card-text :class="color" class="darken-3 white--text">
+    <v-card-media :src="imageUrl" height="620px" width="auto"></v-card-media>
+    <v-card-text :class="color" class="white white--text">
       <h3 class="title">{{ title }}</h3>
       <p v-html="description"></p>
     </v-card-text>
